@@ -38,7 +38,7 @@ if(!gg) return;
 if(gg) {
 gg.send({embed : new Discord.RichEmbed()
 .setDescription(`**المده التي يدخل فيها الدسكورد : \n ${lan}\n مده دخولك للدسكورد :\n ${md} \n معه مايك ؟ :\n ${br}  **`)  
-          .setFooter(`Codes.`)
+          .setFooter(`MineCubes.`)
 .setTimestamp()
 });
 }        
