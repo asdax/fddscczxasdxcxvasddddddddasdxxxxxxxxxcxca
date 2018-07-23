@@ -53,7 +53,6 @@ gg.send({embed : new Discord.RichEmbed()
 
 
   client.on('message',async message => {
-    message.author.bot
   let mention = message.mentions.members.first();
   let role = message.content.split(" ").slice(2).join(" ");
   let mySupport = message.guild.roles.find('name',role);
@@ -75,7 +74,6 @@ gg.send({embed : new Discord.RichEmbed()
 
 
   client.on('message',async message => {
-    message.author.bot
   let mention = message.mentions.members.first();
   let acRoom = client.channels.get('470661995255955477');
   if(message.content.startsWith(prefix + "رفض")) {
