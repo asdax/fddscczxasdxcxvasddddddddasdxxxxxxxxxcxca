@@ -1,3 +1,4 @@
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
  const prefix = "$";
@@ -91,4 +92,4 @@ gg.send({embed : new Discord.RichEmbed()//By Codes , - ST I EdiTeD , .#4968//By 
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.BOT_TOKEN);})
