@@ -8,6 +8,7 @@ const client = new Discord.Client();
 
 
 client.on('message', async message => {
+ message.author.bot
   if(message.content.startsWith(prefix + "تقديم")) {
     await message.channel.send("**:writing_hand: ماهي المده التي تدخل فيها الدسكورد (كل يوم ,كل يومين . كل سبوع)و **").then(e => {
     let filter = m => m.author.id === message.author.id
