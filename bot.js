@@ -86,6 +86,10 @@ gg.send({embed : new Discord.RichEmbed()
 ;})
 
 
+client.on('ready', () => {
+  console.log(`Logged in t8dem as ${client.user.tag}!`);
+});
+
 
 
 
@@ -112,6 +116,10 @@ client.on('message', message => {
       message.channel.sendMessage(`**:white_check_mark:   ${argresult}**`)
   }}
   )
+
+client.on('ready', () => {
+  console.log(`Logged in al7alh as ${client.user.tag}!`);
+});
 
 
 
