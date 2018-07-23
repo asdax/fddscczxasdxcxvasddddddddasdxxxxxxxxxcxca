@@ -37,7 +37,7 @@ var gg = message.guild.channels.find('name', 'التقديمات')
 if(!gg) return;
 if(gg) {
 gg.send({embed : new Discord.RichEmbed()
-.setDescription(`**المده التي يدخل فيها الدسكورد : \n ${lan}\n مده دخولك للدسكورد :\n ${md} \n معه مايك ؟ :\n ${br}  **`)  
+.setDescription(`**المده التي يدخل فيها الدسكورد : \n ${lan}\n مده دخوله للدسكورد :\n ${md} \n معه مايك ؟ :\n ${br}  **`)  
           .setFooter(`MineCubes.`)
 .setTimestamp()
 });
